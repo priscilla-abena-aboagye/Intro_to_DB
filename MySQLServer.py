@@ -4,8 +4,8 @@ def create_database():
     try:
         mydb = mysql.connector.connect(
             host="localhost",
-            user="root",
-            password="WeOwnTheN!ght2025"
+            user="",
+            password=""
         )
         mycursor = mydb.cursor()
         mycursor.execute("CREATE DATABASE IF NOT EXISTS alx_book_store")
